@@ -1,0 +1,17 @@
+#main {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#board-container {
+  display: grid;
+  grid-template-columns: 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px;
+}
+.field {
+  border: solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
